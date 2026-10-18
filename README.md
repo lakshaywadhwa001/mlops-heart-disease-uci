@@ -152,3 +152,5 @@ Open `http://127.0.0.1:3000`, sign in as `admin` with the password used to creat
 ## Step 9: Final report
 
 See [reports/FINAL_REPORT.md](reports/FINAL_REPORT.md) for the consolidated methods, results, architecture diagram, CI/CD summary, repository status, and deployment evidence checklist. The project has no configured Git remote yet; add the published repository URL before submission. Live cluster screenshots and deployment URLs must be added after deploying on a machine with Docker and Kubernetes available.
+
+
