@@ -2,7 +2,7 @@
 
 **Report date:** 2026-10-06  
 **Dataset:** UCI Heart Disease, processed Cleveland subset  
-**Repository URL:** Not configured. This workspace has no Git remote; publish the project and add its URL before submission.
+**Repository URL:** https://github.com/lakshaywadhwa001/mlops-heart-disease-uci
 
 ## 1. Objective and scope
 
