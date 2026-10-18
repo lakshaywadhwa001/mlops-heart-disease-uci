@@ -1,0 +1,27 @@
+{
+  "model_uri": "models:/m-0c54723882624d6facc3db52a0d2119d",
+  "local_model_path": "models/m-0c54723882624d6facc3db52a0d2119d",
+  "input_features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "prediction_target": "target (0=no disease, 1=disease present)",
+  "preprocessing": "median imputation and standard scaling for numeric features; most-frequent imputation and one-hot encoding for categorical features",
+  "model_environment": [
+    "scikit-learn==1.9.1",
+    "mlflow==3.17.1",
+    "numpy==2.5.4",
+    "pandas==2.3.3"
+  ]
+}

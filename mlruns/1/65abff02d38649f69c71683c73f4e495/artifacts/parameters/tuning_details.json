@@ -1,0 +1,40 @@
+{
+  "search_space": {
+    "classifier__C": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "classifier__class_weight": [
+      null,
+      "balanced"
+    ]
+  },
+  "best_params_full_data_search": {
+    "classifier__C": 0.1,
+    "classifier__class_weight": null
+  },
+  "best_params_by_outer_fold": [
+    {
+      "classifier__C": 0.1,
+      "classifier__class_weight": null
+    },
+    {
+      "classifier__C": 0.1,
+      "classifier__class_weight": null
+    },
+    {
+      "classifier__C": 1.0,
+      "classifier__class_weight": null
+    },
+    {
+      "classifier__C": 0.1,
+      "classifier__class_weight": "balanced"
+    },
+    {
+      "classifier__C": 0.1,
+      "classifier__class_weight": "balanced"
+    }
+  ],
+  "selection_rule": "highest mean outer-fold ROC-AUC"
+}

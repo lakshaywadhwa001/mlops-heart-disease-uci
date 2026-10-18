@@ -1,0 +1,49 @@
+{
+  "search_space": {
+    "classifier__max_depth": [
+      null,
+      6
+    ],
+    "classifier__min_samples_leaf": [
+      1,
+      3
+    ],
+    "classifier__class_weight": [
+      null,
+      "balanced"
+    ]
+  },
+  "best_params_full_data_search": {
+    "classifier__class_weight": null,
+    "classifier__max_depth": 6,
+    "classifier__min_samples_leaf": 3
+  },
+  "best_params_by_outer_fold": [
+    {
+      "classifier__class_weight": "balanced",
+      "classifier__max_depth": 6,
+      "classifier__min_samples_leaf": 3
+    },
+    {
+      "classifier__class_weight": "balanced",
+      "classifier__max_depth": null,
+      "classifier__min_samples_leaf": 1
+    },
+    {
+      "classifier__class_weight": null,
+      "classifier__max_depth": 6,
+      "classifier__min_samples_leaf": 3
+    },
+    {
+      "classifier__class_weight": "balanced",
+      "classifier__max_depth": null,
+      "classifier__min_samples_leaf": 3
+    },
+    {
+      "classifier__class_weight": null,
+      "classifier__max_depth": null,
+      "classifier__min_samples_leaf": 3
+    }
+  ],
+  "selection_rule": "highest mean outer-fold ROC-AUC"
+}
