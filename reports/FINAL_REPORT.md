@@ -79,3 +79,4 @@ flowchart LR
 ## 9. Deployment evidence and submission items
 
 The screenshot directory contains a checklist, not fabricated deployment evidence. After a successful cluster deployment, capture the ready Deployment/LoadBalancer, successful health and prediction responses, and the Grafana API dashboard. Add the actual published Git repository URL above. Until those external steps are completed, deployment evidence and repository URL remain submission prerequisites.
+
